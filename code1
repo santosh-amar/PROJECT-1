@@ -1,0 +1,35 @@
+%macro import(file,dname);	
+   Proc import datafile="&file" out=&dname
+   Dbms=excel replace;
+   Getnames=yes;
+   Run;
+%mend;
+   %import(E:\sas\macro\data1.xls,ds1);
+   %import(E:\sas\macro\data2.xls,ds2);
+   %import(E:\sas\macro\data3.xls,ds3);
+   %import(E:\sas\macro\data4.xls,ds4);
+   %import(E:\sas\macro\data5.xls,ds5);
+   %import(E:\sas\macro\data6.xls,ds6);
+   %import(E:\sas\macro\data7.xls,ds7);
+   %import(E:\sas\macro\data8.xls,ds8);
+   %import(E:\sas\macro\data9.xls,ds9);
+   %import(E:\sas\macro\data10.xls,ds10);
+
+[A
+[A%macro import(file,dname);	
+   Proc import datafile="&file" out=&dname
+   Dbms=excel replace;
+   Getnames=yes;
+   Run;
+%mend;
+   %import(E:\sas\macro\data1.xls,ds1);
+   %import(E:\sas\macro\data2.xls,ds2);
+   %import(E:\sas\macro\data3.xls,ds3);
+   %import(E:\sas\macro\data4.xls,ds4);
+   %import(E:\sas\macro\data5.xls,ds5);
+   %import(E:\sas\macro\data6.xls,ds6);
+   %import(E:\sas\macro\data7.xls,ds7);
+   %import(E:\sas\macro\data8.xls,ds8);
+   %import(E:\sas\macro\data9.xls,ds9);
+   %import(E:\sas\macro\data10.xls,ds10);
+
